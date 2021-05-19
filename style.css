@@ -1,7 +1,91 @@
-body{
-    background-color: lightgrey;
-    background-position: 0px;
+*{
+    margin: 0;
+    padding: 0;
+
 }
-#heading2{
-    color: blue;
+.container{
+    height: 100hv;
+    width: 100%;
+    background-image: url(images/background.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    padding left:5%;
+    padding right:5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 95%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 1500px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 50px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top:25px;
+    margin-bottom: 15px;
+    color:#232d60;
+}
+.content p{
+    font-size: 27px;
+    color:black;
+}
+.content{
+    margin-top: 10%;
+    margin-bottom: 30px;
+    margin-left: 10%;
+
+}
+.feature-img{
+    height: 20%;
+    position: absolute;
+    bottom:2100px;
+    right: 150px;
+}
+html{
+    margin-top: 0px;
+}
+h2{
+     margin-top: 0px;
+    margin-left: 150px;
+    padding-top: 70px;
+    padding-left: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+  h2{
+      font-size:xx-large;
+  }
+  .content2{
+      margin-top: 30px;
+      margin-left: 100px;
+      padding-left: 120px;
+      word-spacing: 10px;
+  }
+
+.content2 p{
+    padding-top: 10px;
+    font-size: 20px;
 }
